@@ -1,0 +1,65 @@
+/* Add your custom CSS styles here */
+body {
+    background-color: rgb(230, 226, 226);
+    margin: 1in;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif; /* Change the font for the entire webpage */
+    background-image: url('../Images/thumb.png'); /* Use relative path to reference the image */
+    background-size: 2600px 1800px; /* Set specific size for the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center 1in; /* Move the background image down */
+    height: 200vh;
+  }
+  
+  .app-bar {
+    background-color: rgba(202, 224, 194, 0.8); /* Changed to a better shade of green with opacity */
+    color: white;
+    padding: 40px; /* Increased padding to make the app-bar thicker */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 12px 8px rgba(0, 0, 0, 0.1); /* Added shadow to the app-bar */
+  }
+  
+  .app-bar h1 {
+    margin: 1;
+    color: rgba(8, 7, 7, 0.671);
+    line-height: 1.2; /* Adjust line height for better spacing */
+    font-size: 2.5em; /* Increased font size */
+    font-family: "Playwrite NZ", cursive; /* Optional: Change font for the h1 */
+  }
+  
+  .app-bar nav {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: center; /* Center the navigation items */
+    color: bisque;
+  }
+  
+  .app-bar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.6em; /* Increased font size */
+    font-family: "Jacquard 24", system-ui; /* Optional: Change font for the links */
+    transition: color 0.3s, background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+    padding: 5px; /* Add padding to maintain size */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  .app-bar a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 180, 40, 0.568);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+  
+  .title {
+    font-size: 2em; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    margin: 20px 0; /* Add some margin for spacing */
+    color: rgb(8, 7, 7); /* Change the text color */
+    font-family: "Playwrite NZ", system-ui; /* Optional: Change the font */
+  }
+ .video-container 
+ { display: flex; justify-content: center; /* Center horizontally */ align-items: center; /* Center vertically if needed */ height: auto; /* Optional: Adjust as needed */ }
